@@ -1,0 +1,28 @@
+.container {
+    background: ivory;
+    /* border-style: outset; */
+    border-color: ivory;
+    border-width: 15px;
+    border-bottom-style: inset;
+}
+.jumbotron {
+    background-image: url("../images/shutterstock.jpg");
+    background-size: 100% 100%;
+    font-family:'Trebuchet MS';
+    font-stretch: expanded;
+    font-style: italic;
+    font-style: bold;
+    /* https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_gradient-radial_repeating */
+    /* height: 200px; */
+    /* background-image: repeating-radial-gradient(aliceblue, salmon 20%, peru 35%); */
+    background-image: radial-gradient(beige, lightsalmon 60%, peru 85%);    
+}
+.panel-body {
+    background: ivory;
+}
+.panel-heading {
+    background: beige !important;
+}
+.well {
+    background: ivory;
+}
